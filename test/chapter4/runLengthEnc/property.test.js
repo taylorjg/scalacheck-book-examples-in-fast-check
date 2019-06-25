@@ -25,7 +25,7 @@ const rleList = size => {
 
 const genOutput = fc.integer(0, 100).chain(rleList)
 
-describe('Run Length Encoding property test', () => {
+describe('4.6 Constructing optimal output', () => {
   it('round-trip', () => {
     fc.assert(
       fc.property(genOutput, r => {
