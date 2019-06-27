@@ -1,7 +1,7 @@
 {
   "name": "scalacheck-book-examples-in-fast-check",
   "version": "0.0.0",
-  "description": "",
+  "description": "Port of some of the examples in the ScalaCheck book to JavaScript and fast-check",
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha --recursive --slow 2500"
